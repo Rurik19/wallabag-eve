@@ -28,7 +28,7 @@
 #     def _id(self):
 #         return self.id
 #-----------------------------------------------------------------------------------
-DATA_URL='mysql://wallabag2:PSNuPR19@10.8.1.90:3306/wallabag2'
+DATA_URL='mysql://wallabag2:********@10.8.1.90:3306/wallabag2'
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine
